@@ -3,7 +3,7 @@ class Solution:
         if len(strs) == 0:
             return ""
         current = strs[0]
-        for i in range(1,len(strs)):
+        for i in range(1, len(strs)):
             temp = ""
             if len(current) == 0:
                 break
